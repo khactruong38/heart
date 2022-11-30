@@ -173,14 +173,14 @@ html {
     float: right;
     height: 100%;
    border-top-right-radius: 0.75rem;
-   background: url('./img/bga.jpg') top center / cover no-repeat;
+   background: url('./bga.jpg') top center / cover no-repeat;
 }
 .content {
     width: 100%;
 }
 #background {
     position: relative;
-    background: url('./img/background.jpg') top center/ cover no-repeat;
+    background: url('./background.jpg') top center/ cover no-repeat;
     padding-top: 66.66666%;
     position: fixed;
     top: 0;
@@ -632,7 +632,7 @@ padding-top: 12px;
     border-radius: 16px;
   }
   .picture1 {
-    background: url(./img/desarrollador-1288x724.jpg) top center / cover no-repeat;
+    background: url(./desarrollador-1288x724.jpg) top center / cover no-repeat;
   }
   .picture2 {
     background: url(https://img1.kienthucvui.vn/uploads/2021/01/10/hinh-nen-chu-de-mua-dong-dep_024658706.jpg) top center / cover no-repeat;
@@ -707,7 +707,7 @@ padding-top: 12px;
 
 }
 #welcom {
-    background: url("./img/bg.jpg");
+    background: url("./bg.jpg");
     height: 100%;
 }
 .welcom{
