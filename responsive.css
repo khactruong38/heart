@@ -24,7 +24,7 @@
     }
     .main {
         display: block;
-        height: 86vh;
+       
     }
     .main .bio{
         max-width: none;
@@ -113,7 +113,7 @@
     }
     .main {
         display: block;
-        height: 86vh;
+        height: 96vh;
     }
     .main .bio{
         max-width: none;
