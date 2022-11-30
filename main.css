@@ -777,7 +777,7 @@ padding-top: 12px;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    height: 80vh;
+    height: 92vh;
     background: linear-gradient(120deg, #383745 50%, #22202B 50%);
   }
   .wrapper {
