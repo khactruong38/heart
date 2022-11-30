@@ -1,0 +1,302 @@
+@media (min-width: 1101px){
+    #mobile {
+        display: none;
+    }
+}
+@media (min-width: 801px) and (max-width:1100px){
+    #mobile {
+        display: none;
+    }
+    #boxThietKeWeb{
+        padding-top: 14vh;
+    }
+    #content_left{
+        display: none;
+    }
+    #content_right {
+        width: 100%;
+    }
+    box-icon {
+        display: block;
+    }
+    .lord_icon {
+        display: none;
+    }
+    .main {
+        display: block;
+        height: 86vh;
+    }
+    .main .bio{
+        max-width: none;
+        margin-top: 8vh;
+        text-align: center;
+    }
+    .main .contact form input,
+    .main .contact form textarea {
+        width: 100%;
+    }
+    #contact {
+        text-align: center;
+    }
+    .main .contact {
+        width: 100%;
+        max-width: inherit;
+        margin-top: 24px;
+    }
+    .main .bio .bio-link {
+        display: none;
+    }
+    .itemr2 {
+        margin: 20px 12px;
+    }
+    .itemr1 {
+        padding-top: 12px;
+    }
+    .slideshow-container {
+        display: none;
+    }
+    .welcom {
+        font-size: 5.5em;
+    }
+    #container {
+        height: 100%;
+        width: 100%;
+        margin-top: inherit;
+    }
+    #welcom li {
+        font-size: 100px;
+        margin-top: 140px;
+    }
+    #welcom p {
+        padding: 32px 28px;
+    }
+    #content_right {
+        border-top-right-radius: 0;
+    }
+    .wrapper {
+        display: flex;
+    }
+    #welcom {
+        display: block;
+    }
+    
+}
+@media (min-width:479px) and (max-width:800px){
+    #background {
+        display: none;
+    }
+    #mobile {
+        z-index: 1;
+    }
+    .body_content--right {
+        margin-top: 20px;
+    }
+    #container {
+        height: 100%;
+        width: 100%;
+        margin-top: inherit;
+    }
+    #content_left{
+        display: none;
+    }
+    #content_right {
+        width: 100%;
+    }
+    box-icon {
+        display: block;
+    }
+    .lord_icon {
+        display: none;
+    }
+    .body_content{
+        display: block;
+    }
+    .main {
+        display: block;
+        height: 86vh;
+    }
+    .main .bio{
+        max-width: none;
+        margin-top: 8vh;
+        text-align: center;
+    }
+    .main .contact form input,
+    .main .contact form textarea {
+        width: 100%;
+    }
+    #contact {
+        text-align: center;
+    }
+    .welcom {
+        font-size: 4.5em;
+    }
+    #welcom p {
+        padding: 32px 28px;
+    }
+    .body_content--right{
+        height: inherit;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        min-height: inherit;
+    }
+    .body_content--left {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    }
+    .main .contact {
+        width: 100%;
+        max-width: inherit;
+        margin-top: 24px;
+    }
+    .main .bio .bio-link {
+        display: none;
+    }
+    .itemr2 {
+        margin: 20px 12px;
+    }
+    .itemr1 {
+        padding-top: 12px;
+    }
+    .slideshow-container {
+        display: none;
+    }
+    .body_content--left {
+        display: none;
+    }
+    .body_content--left__m {
+        display: block;
+    }
+    #content_right {
+        border-top-right-radius: 0;
+    }
+    .wrapper {
+        display: flex;
+    }
+    #boxThietKeWeb{
+        padding-top: 14vh;
+    }
+    #welcom {
+        display: none;
+    }
+    #contact {
+        margin-bottom: 80px;
+    }
+    
+}
+
+
+@media(max-width: 479px){
+    /* #background,
+    #container {
+        display: none;
+    }
+    .body_content_modal {
+        
+        margin-left: 5%;
+    }
+    .wrapper {
+        display: flex;
+    }
+     */
+    #background {
+        display: none;
+    }
+    #mobile {
+        z-index: 1;
+    }
+    #container {
+        height: 100%;
+        width: 100%;
+        margin-top: inherit;
+    }
+    #content_left{
+        display: none;
+    }
+    #content_right {
+        width: 100%;
+    }
+    box-icon {
+        display: block;
+    }
+    .lord_icon {
+        display: none;
+    }
+    .body_content{
+        display: block;
+    }
+    .main {
+        display: block;
+        height: 86vh;
+    }
+    .main .bio{
+        max-width: none;
+        margin-top: 8vh;
+        text-align: center;
+    }
+    .main .contact form input,
+    .main .contact form textarea {
+        width: 100%;
+    }
+    #contact {
+        text-align: center;
+    }
+    .welcom {
+        font-size: 4.5em;
+    }
+    #welcom p {
+        padding: 32px 28px;
+    }
+    .body_content--right{
+        height: inherit;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        min-height: inherit;
+    }
+    .body_content--left {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+
+    }
+    .main .contact {
+        width: 100%;
+        max-width: inherit;
+        margin-top: 24px;
+    }
+    .main .bio .bio-link {
+        display: none;
+    }
+    .itemr2 {
+        margin: 20px 12px;
+    }
+    .itemr1 {
+        padding-top: 12px;
+    }
+    .slideshow-container {
+        display: none;
+    }
+    .body_content--left {
+        display: none;
+    }
+    .body_content--left__m {
+        display: block;
+    }
+    #content_right {
+        border-top-right-radius: 0;
+    }
+    .body_content--right {
+        margin-top: 20px;
+    }
+    .wrapper {
+        display: flex;
+    }
+    #boxThietKeWeb{
+        padding-top: 14vh;
+    }
+    #welcom {
+        display: none;
+    }
+    #contact {
+        margin-bottom: 80px;
+    }
+}
