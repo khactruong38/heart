@@ -241,7 +241,7 @@
     }
     .main {
         display: block;
-        height: 6vh;
+        height: 96vh;
     }
     .main .bio{
         max-width: none;
