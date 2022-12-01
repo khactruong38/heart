@@ -9,6 +9,8 @@
     }
     #boxThietKeWeb{
         padding-top: 14vh;
+        height: 100%;
+
     }
     #content_left{
         display: none;
@@ -24,7 +26,7 @@
     }
     .main {
         display: block;
-       
+        height: 86vh;
     }
     .main .bio{
         max-width: none;
@@ -53,7 +55,6 @@
         padding-top: 12px;
     }
     .slideshow-container {
-        display: none;
     }
     .welcom {
         font-size: 5.5em;
@@ -113,7 +114,7 @@
     }
     .main {
         display: block;
-        height: 96vh;
+        height: 86vh;
     }
     .main .bio{
         max-width: none;
@@ -182,7 +183,20 @@
     #contact {
         margin-bottom: 80px;
     }
-    
+    .education_right{
+        grid-template-columns: 100%;
+    }
+    .certificate {
+        padding-top: 220px;
+    }
+    #certificateTa {
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+    .hover-text{
+        left: 0;
+        top: 0;
+    }
 }
 
 
@@ -227,7 +241,7 @@
     }
     .main {
         display: block;
-        height: 94vh;
+        height: 86vh;
     }
     .main .bio{
         max-width: none;
@@ -298,5 +312,23 @@
     }
     #contact {
         margin-bottom: 80px;
+    }
+    .education_right{
+        grid-template-columns: 100%;
+    }
+    .certificate {
+        padding-top: 220px;
+    }
+    #certificateTa {
+        margin-left: 3%;
+        margin-top: 20px;
+    }
+    .Html {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+        
+    }
+    .hover-text{
+        left: 0;
+        top: 0;
     }
 }
