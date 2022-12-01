@@ -13,7 +13,7 @@
 /4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./responsive.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="./profile-pic (4).png" type="image/x-icon" />
+    <link rel="icon" href="/profile-pic (4).png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -70,16 +70,18 @@
                                  <li><a class="icon" target="_blank" href="https://www.facebook.com/khactruong38">Facebook</a></li>
                                  <li><a class="icon" target="_blank" href="https://github.com/khactruong38/">Github</a></li>
                                  <li><a class="icon" target="_blank" href="https://www.youtube.com/channel/UCRSf27oW2XF-c1mMbs5b5MA">Youtube</a></li>
+                                 <li><a class="icon" id="myDropdownthietKeWeb" onclick="myFunctionthietKeWeb()">My Works</a></li>
+
                              </ul>
                          </div>
                          <div class="item">
                              <ul class="about">
                                  <li>About</li>
                                  <li><a onclick="thongTin()"  class="icon js_buy_tickets buy_tickets width_full dangKy" href="#thongTin">About me</a></li>
-                                 <li><a class="icon" id="myDropdownthietKeWeb" onclick="myFunctionthietKeWeb()">My project</a></li>
-                                 <li><a  class="icon" href="#contact"onclick="thongTin()">Contact</a></li>
+                                 <li><a onclick="thongTin()" class="icon" href="#education">Education</a></li>
+                                 <li><a onclick="thongTin()" class="icon" href="#services">Services</a></li>
 
-                                 <li><a class="icon" href="#">Education</a></li>
+                                 <li><a  class="icon" href="#contact"onclick="thongTin()">Contact</a></li>
                              </ul>
                          </div>
                      </div>
@@ -185,6 +187,10 @@
                           
                         </div>
                         <div class="nav-items items2">
+                          <a onclick="thongTin()" href="#education"><i style="color: white;"class="fa fa-graduation-cap"></i></a>
+                          
+                        </div>
+                        <div class="nav-items items4">
                           <a onclick="thongTin()" href="#contact"><i style="color: white;"class="fa fa-address-card"></i></a>
                           
                         </div>
@@ -249,7 +255,7 @@
                                 <p>Đã học tại <a class="show" href="https://www.facebook.com/TruongTHPTTranPhuHaTinh">Trường THPT Trần Phú - Hà Tĩnh
                                  
                                     <div class="tranPhu">
-                                        <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                                        <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                                     </div>
                              </a></p>
                             </li>
@@ -257,7 +263,7 @@
      
                                 <li style="display: inline-block;cursor: pointer;">
                                     <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/VMZOiSIJIwn.png" alt="">
-                                    <p>Sống tại <a class="show" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/">Hà Nội</a></p>
+                                    <p>Sống tại <a class="show" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/">Ha Noi</a></p>
                                     <div class="haNoi">
                                      <img class="br" src="./Screenshot 2022-09-21 004431.png" alt="">
                                  </div>
@@ -269,7 +275,7 @@
                                     <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/-e1Al38ZrZL.png" alt="">
                                     <p>Đến từ <a class="show" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Tinh/108536245843925/">Hà Tĩnh</a></p>
                                  <div class="haTinh">
-                                     <img class="br" src="./Screenshot 2022-09-21 004457.png" alt="">
+                                     <img class="br" src="./assets/img/Screenshot 2022-09-21 004457.png" alt="">
                                  </div>
                                 </li>
                             </div>
@@ -288,7 +294,7 @@
                              </p>
                          </header>
                          <div class="body_content_modal">
-                             <img style="width:300px;position: absolute;animation: effect2 ease 0.4s ;right: 20%;margin-top: 36px;border-radius: 24px ;" src="./z3737756072101_d1d51b0dff1e8e602e4906a3f6cfa22f.jpg" alt="">
+                             <img style="width:300px;position: absolute;animation: effect2 ease 0.4s ;right: 20%;margin-top: 36px;border-radius: 24px ;" src="./assets/img/z3737756072101_d1d51b0dff1e8e602e4906a3f6cfa22f.jpg" alt="">
                              
                              <p style="width: 50%;"> 
                                  <p style="font-size:24px; margin: 12px 0;">Hey</p>
@@ -323,15 +329,14 @@
      <img src="./Close-icon.png" alt=""> -->
 
 
-
  
      <div class="content">
         <div class="header_content">
-            <!-- <img class="img_cover " src="./desarrollador-1288x724.jpg" alt="">
-            <img class="img_cover " src="./background.jpg" alt="">
-            <img class="img_cover " src="./Untitled-2.jpg" alt=""> -->
+            <!-- <img class="img_cover " src="../assets/img/desarrollador-1288x724.jpg" alt="">
+            <img class="img_cover " src="./assets/img/background.jpg" alt="">
+            <img class="img_cover " src="./assets/img/Untitled-2.jpg" alt=""> -->
             
-            <!-- <img class="avt" src="./profile-pic (4).png" alt=""> -->
+            <!-- <img class="avt" src="./assets/img/profile-pic (4).png" alt=""> -->
             <div class="slideshow-container ">
                  <div class="mySlides picture1 fade cover">
                  </div>
@@ -357,10 +362,10 @@
 
                     <li style="display: inline-block;cursor: pointer;">
                         <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/jV4o8nAgIEh.png" alt="">
-                        <p style="vertical-align: top;">Đang học tại <a class="" target="_blank" href="https://www.facebook.com/hnmu.edu.vn"><h class="mailto">Trường Đại học Thủ đô Hà Nội</h> 
+                        <p style="vertical-align: top;">Studying at  <a class="" target="_blank" href="https://www.facebook.com/hnmu.edu.vn"><h class="mailto">HaNoi Metropolitan university</h> 
                          
                             <!-- <div class="tranPhu">
-                                <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                                <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                             </div> -->
                      </a></p>
                     </li>
@@ -370,10 +375,10 @@
                     <li style="display: inline-block;cursor: pointer;">
                         <!-- <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/8h5bbU4i43W.png" alt=""> -->
                         <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                        <p>Ngày sinh: <a class="" href="#"> <h class="mailto">17/07/2003 </h>
+                        <p>Date of birth: <a class="" href="#"> <h class="mailto">17/07/2003 </h>
                          
                             <!-- <div class="tranPhu">
-                                <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                                <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                             </div> -->
                      </a></p>
                     </li>
@@ -383,7 +388,7 @@
 
                         <li style="display: inline-block;cursor: pointer;">
                             <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/VMZOiSIJIwn.png" alt="">
-                            <p style="vertical-align: text-bottom;">Sống tại <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/"><h class="mailto">Hà Nội <div class="haNoi">
+                            <p style="vertical-align: text-bottom;">Live at <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/"><h class="mailto">Ha Noi <div class="haNoi">
                              <img class="br" src="./Screenshot 2022-09-21 004431.png" alt="">
                          </div></h></a></p>
                             
@@ -393,7 +398,7 @@
 
                         <li style="display: inline-block;cursor: pointer;">
                             <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/-e1Al38ZrZL.png" alt="">
-                            <p style="vertical-align: text-bottom;">Đến từ <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Tinh/108536245843925/"><h class="mailto">Hà Tĩnh</h> </a></p>
+                            <p style="vertical-align: text-bottom;">From <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Tinh/108536245843925/"><h class="mailto">Ha Tinh</h> </a></p>
                          <div class="haTinh">
                              <img class="br" src="./Screenshot 2022-09-21 004457.png" alt="">
                          </div>
@@ -406,7 +411,7 @@
                         <p><a class="" target="_blank" href="mailto:vokhactruong38@gmail.com">  <h class="mailto" >Vokhactruong38@gmail.com</h>
                          
                             <!-- <div class="tranPhu">
-                                <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                                <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                             </div> -->
                      </a></p>
                     </li>
@@ -431,8 +436,10 @@
                         float: right;
                         right: 0;
                         margin: 12px 0px 12px; " src="https://rey.extact.com/wp-content/uploads/2021/06/Line-Vector.png" alt="">
-                       <p style="padding-top: 64px ;font-size: 18px; line-height: 26px;">I'm a pretty friendly, funny person <br>
-            
+                       <p style="padding-top: 64px ;font-size: 18px; line-height: 26px;">
+                        I'm a pretty friendly, funny person <br>
+                        2nd year Information Technology student studying at Hanoi Metropolitan University <br>
+                        Always curious, ready to learn more to equip themselves with more knowledge and experience , serve for work. 
                         My hobbies are listening to music, reading books and traveling with friends.<br>
                                                     I am designing with a minimal and beautiful design in mind.</p>
                                                     
@@ -448,10 +455,10 @@
 
                   <li style="display: inline-block;cursor: pointer;">
                       <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/jV4o8nAgIEh.png" alt="">
-                      <p style="vertical-align: top;">Đang học tại <a class="" target="_blank" href="https://www.facebook.com/hnmu.edu.vn"><h class="mailto">Trường Đại học Thủ đô Hà Nội</h> 
+                      <p style="vertical-align: top;">Studying at  <a class="" target="_blank" href="https://www.facebook.com/hnmu.edu.vn"><h class="mailto">HaNoi Metropolitan university</h> 
                        
                           <!-- <div class="tranPhu">
-                              <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                              <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                           </div> -->
                    </a></p>
                   </li>
@@ -461,10 +468,10 @@
                   <li style="display: inline-block;cursor: pointer;">
                       <!-- <img src="https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/8h5bbU4i43W.png" alt=""> -->
                       <i class="fa fa-birthday-cake" aria-hidden="true"></i>
-                      <p>Ngày sinh: <a class="" href="#"> <h class="mailto">17/07/2003 </h>
+                      <p>Date of birth: <a class="" href="#"> <h class="mailto">17/07/2003 </h>
                        
                           <!-- <div class="tranPhu">
-                              <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                              <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                           </div> -->
                    </a></p>
                   </li>
@@ -474,7 +481,7 @@
 
                       <li style="display: inline-block;cursor: pointer;">
                           <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/VMZOiSIJIwn.png" alt="">
-                          <p style="vertical-align: text-bottom;">Sống tại <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/"><h class="mailto">Hà Nội <div class="haNoi">
+                          <p style="vertical-align: text-bottom;">Live at <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Noi/106388046062960/"><h class="mailto">Ha Noi <div class="haNoi">
                            <img class="br" src="./Screenshot 2022-09-21 004431.png" alt="">
                        </div></h></a></p>
                           
@@ -484,7 +491,7 @@
 
                       <li style="display: inline-block;cursor: pointer;">
                           <img  src="https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/-e1Al38ZrZL.png" alt="">
-                          <p style="vertical-align: text-bottom;">Đến từ <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Tinh/108536245843925/"><h class="mailto">Hà Tĩnh</h> </a></p>
+                          <p style="vertical-align: text-bottom;">From <a class="" target="_blank" href="https://www.facebook.com/places/Hoat-dong-giai-tri-tai-Ha-Tinh/108536245843925/"><h class="mailto">Ha Tinh</h> </a></p>
                        <div class="haTinh">
                            <img class="br" src="./Screenshot 2022-09-21 004457.png" alt="">
                        </div>
@@ -497,7 +504,7 @@
                       <p><a class="" target="_blank" href="mailto:vokhactruong38@gmail.com">  <h class="mailto" >Vokhactruong38@gmail.com</h>
                        
                           <!-- <div class="tranPhu">
-                              <img class="br" src="./Screenshot 2022-09-21 004356.png" alt="">
+                              <img class="br" src="./assets/img/Screenshot 2022-09-21 004356.png" alt="">
                           </div> -->
                    </a></p>
                   </li>
@@ -506,13 +513,93 @@
             </div>
         </div>
     </div>
-
-
+    <div id="education">
+      <h3 class="skill">Skill</h3>
+      <div class="education_right">
+      <div class="item_Skill">
+        <div class="circleSkill1">
+          <p>75%</p>
+        </div>
+        <h3 class="Html">Html</h3>
+      </div>
+      <div class="item_Skill">
+        <div class="circleSkill2">
+          <p>50%</p>
+        </div>
+        <h3 class="Html">English</h3>
+      </div>
+      <div class="item_Skill">
+        <div class="circleSkill3">
+          <p>50%</p>
+        </div>
+        <h3 class="Html">JavaScript</h3>
+      </div>
+      <div class="item_Skill">
+        <div class="circleSkill4">
+          <p>75%</p>
+        </div>
+        <h3 class="Html">Css</h3>
+      </div>
+      <h3  class="skill certificate">
+        Certificate
+      </h3>
+      <img id="certificateIt" src="./Võ Khắc Trường Information Technology Onboarding Certificate.png" alt="">
+      <img id="certificateTa" src="./Screenshot 2022-11-30 214810.png" alt="">
+      </div>
+    </div>
+    <div id="services">
+      <h3 class="skill">
+        Services
+      </h3>
+      <div class="section-fluid-main">
+        <div class="section-row">
+          <div class="section-col">
+            <div class="section">
+              <div class="section-in">
+                <img src="https://cdn.dribbble.com/userupload/2837891/file/original-6ed6c526b8a927655a338ccff93cb7f9.jpg?compress=1&resize=1200x900" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="hover-text">
+            <h2>App Design</h2>
+          </div>
+          <div class="section-col">
+            <div class="section">
+              <div class="section-in">
+                <img src="https://www.itconcepts.ch/wp-content/uploads/it-concepts-operation-data-analytics-3.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="hover-text">
+            <h2>Data analysis</h2>
+          </div>
+          <div class="section-col">
+            <div class="section">
+              <div class="section-in">
+                <img src="https://www.belugacdn.com/blog/wp-content/uploads/2020/04/web-hosting.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="hover-text">
+            <h2>Hosting Services</h2>
+          </div>
+          <div class="section-col">
+            <div class="section">
+              <div class="section-in">
+                <img src="./istockphoto-1364358321-612x612-1.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="hover-text">
+            <h2>Web Design</h2>
+          </div>
+          
+    </div>
     <div id="contact" class="main">
         <div class="bio"><img class="profile-img" src="./profile-pic (4).png"/>
-          <h3 class="header">Khac Truong</h3>
-          <p style="margin: 24px 0 ;">Front-end developer. I'm interested in design, performance & the future of the web...</p>
-          <a class="bio-link" href="tel:0764512713">Telephone Number<i class="fa fa-phone" aria-hidden="true"></i></a>
+          <h3 style="color: #CA8D6E;" class="header">Khac Truong</h3>
+          <p style="margin: 24px 0;color: #bb8d76 ;">Front-end developer. I'm interested in design, performance & the future of the web...</p>
+          <a class="bio-link" href="tel:0764512713">Phone number<i class="fa fa-phone" aria-hidden="true"></i></a>
           <a target="_blank" class="bio-link" href="https://facebook.com/khactruong38">Facebook<i class="fa fa-facebook-square" aria-hidden="true"></i></a>
           <a target="_blank" class="bio-link" href="https://twitter.com/khactruong38">Twitter<i class="fa fa-twitter"></i></a>
           <a target="_blank" class="bio-link" href="https://github.com/khactruong38/">Github<i class="fa fa-github"></i></a>
@@ -628,7 +715,6 @@ function currentSlide(n) {
 showSlides(slideIndex = n);
 }
 
-
 function showSlides(n) {
 var i;
 var slides = document.getElementsByClassName("mySlides");
@@ -738,3 +824,4 @@ submit.addEventListener('click', e => {
 </div>
 </body>
 </html>
+
