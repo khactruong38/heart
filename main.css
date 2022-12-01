@@ -777,7 +777,7 @@ padding-top: 12px;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    height: 92vh;
+    height: 80vh;
     background: linear-gradient(120deg, #383745 50%, #22202B 50%);
   }
   .wrapper {
@@ -855,17 +855,24 @@ padding-top: 12px;
   }
   .items1 {
     top: -6%;
-      left: 195%;
+    left: 230%;
   }
   .items2 {
-    top: 134%;
-    left: 146%;
+    top: 113%;
+    left: 207%;
     transition-delay: 0.1s;
   }
   .items3 {
-    top: 192%;
-      left: -4%;
+    top: 230%;
+    left: -4%;
+    transition-delay: 0.3s;
+  }
+  .items4{
+    top: 198%;
+    left: 118%;
+
     transition-delay: 0.2s;
+
   }
   .show-circle {
     transform: scale(1);
@@ -917,7 +924,7 @@ padding-top: 12px;
     float: left;
     clear: left;
     text-decoration: none;
-    color: #EEEEEE;
+    color: #b85151;
     margin-bottom: 0.25em;
     transition: color 300ms ease-in-out;
   }
@@ -1085,7 +1092,7 @@ padding-top: 12px;
   }
   #contact {
     border-radius: 16px;
-    margin-top: 24px;
+    margin-top: 60px;
   }
   .fa-user {
     font-size: 40px;
@@ -1103,6 +1110,244 @@ padding-top: 12px;
   .body_content--left__m {
    display: none;     
   }
-  #icon-left {
-    top: 0;
+
+  #education {
+    padding-bottom: 40px;
+    border-radius: 10px;
+    background-color: #6cabed;
+    margin-top: 60px;
   }
+  #certificateTa {
+    width: 94%;
+    cursor: pointer;
+    margin-top: 60px;
+    border-radius: 16px;
+    border: 6px #072f4f solid;
+    opacity: 0.8;
+  }
+  
+  #certificateIt {
+    width: 92%;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top: 60px;
+    border-radius: 16px;
+    border: 6px #072f4f solid;
+    opacity: 0.8;
+
+  }
+  #certificateIt:hover,
+  #certificateTa:hover {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  .circleSkill1,
+  .circleSkill2,
+  .circleSkill3,
+  .circleSkill4{
+    background-color:white;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    border: 9px solid #CA8D6E;
+    border-left-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:context-menu;
+  }
+  .circleSkill1{
+    transform: rotate(408deg);
+  }
+  .circleSkill2{
+    transform: rotate(315deg);
+    border-top-color: #ccc;
+
+  }
+  .circleSkill3{
+    transform: rotate(315deg);
+    border-top-color: #ccc;
+  }
+  .circleSkill4{
+    transform: rotate(408deg);
+  }
+  .circleSkill3 p ,
+  .circleSkill2 p{
+    transform: rotate(45deg);
+    padding-left: 4px;
+  }
+  .circleSkill4 p,
+  .circleSkill1 p {
+    transform: rotate(-50deg);
+    padding-left: 4px;
+  }
+.Html {
+  order: 2;
+  color: #fde9ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(2rem, 5vw, 2rem);
+  line-height: 0.75em;
+  text-align: center;
+  text-shadow: 3px 1px 1px #4a8fff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+    display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.item_Skill {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  padding: 20px;
+}
+.education_right {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  position: relative;
+}
+.skill {
+  font-size: 36px;
+  color: rgb(253, 253, 253);
+  padding: 24px 0 0 24px;
+}
+.certificate {
+  position: absolute;
+  top:180px;
+}
+#services {
+  padding-bottom: 40px;
+    border-radius: 10px;
+    margin-top: 60px;
+    min-height: 80vh;
+}
+.section-fluid-main{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: calc(100% - 40px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding-top: 24px;
+}
+.section-row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-row:hover .section-col{
+  opacity: 0.1;
+}
+.section-col{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  transition: opacity 250ms linear;
+}
+.section-row .section-col:hover{
+  opacity: 1;
+}
+.section{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 15px;
+}
+.section-in{
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.section-in img{
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 250ms linear;
+}
+.section-col:hover .section-in img{
+  transform: scale(1.1) rotate(-3deg);
+}
+
+.hover-text{
+  position: fixed;
+  top: 5%;
+  left: 10%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 100;
+  pointer-events: none;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+  text-align: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+  mix-blend-mode: difference;
+}
+.hover-text h2{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 6vw;
+  line-height: 1;
+  color: #fff;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: transform 250ms linear, opacity 250ms ease;
+}
+.section-col:hover + .hover-text h2{
+  opacity: 1;
+  transform: scale(1);
+}
+
+.logo {
+  position: fixed;
+  top: 25px;
+  left: 25px;
+  display: block;
+  z-index: 1000;
+  transition: all 250ms linear;
+}
+.logo img {
+  height: 26px;
+  width: auto;
+  display: block;
+  transition: filter 250ms 700ms linear;
+}
+
+@media (max-width: 767px) {
+  .section-col{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .hover-text h2{
+    font-size: 12vw;
+  }
+}
+
