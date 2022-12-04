@@ -191,7 +191,7 @@ html {
 .itemr1 {
     padding-top: 48px;
 }
-.itemr2 {
+.b{
     margin: 20px 36px;
     display: none;
     animation: effect2 ease 0.4s;
@@ -210,8 +210,8 @@ html {
     margin-left: 12px;
 }
 .itemr2 button {
-    width: 400px;
-    height: 36px;
+    padding: 0 20px;
+    height: 35px;
     border-radius: 6px;
     display: block;
     margin-top: 40px;
