@@ -690,9 +690,7 @@ padding-top: 12px;
 margin-top: 55px;
     margin-left: 20px;
 }
-#boxThietKeWeb li:first-child {
-    padding-top: 60px;
-}
+
 #boxThietKeWeb li {
     padding: 12px 24px;
     list-style-type: circle;
