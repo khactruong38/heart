@@ -101,12 +101,35 @@
               
                  
  <div id="boxThietKeWeb" class="thietKeWeb ">
-        <div class="w3-bar w3-black">
-  <button class="w3-bar-item w3-button" onclick="openCity('London')">Thiết kế web</button>
+     <div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">London</button>
   <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
   <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
-        </div>
-     <div id="London" class="city">
+</div>
+<div id="London" class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div id="Paris" class="city" style="display:none">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+<script>
+    function openCity(cityName) {
+  var i;
+  var x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  document.getElementById(cityName).style.display = "block";
+}
+</script>
                     <li class="dropdown">
                         <p onclick="myFunction1()" class="dropbtn">  Buổi 1</p>
                         <div id="myDropdown1" class="dropdown-content">
@@ -179,18 +202,9 @@
                             <a target="_blank" href="https://filmed-amplifiers.000webhostapp.com/ThietKeWeb/bu%E1%BB%95i9/lesson8.html">Bài 2</a>
                           </div>
                         </li>
-                </div>
+                
 </div>
 
-<div id="Paris" class="city" style="display:none">
-  <h2>Paris</h2>
-  <p>Paris is the capital of France.</p>
-</div>
-
-<div id="Tokyo" class="city" style="display:none">
-  <h2>Tokyo</h2>
-  <p>Tokyo is the capital of Japan.</p>
-</div>
                 
 
                 <!-- <div class="header_background"></div> -->
@@ -839,19 +853,6 @@ submit.addEventListener('click', e => {
   form.reset();
 }, false);
 
-        function openCity(evt, London) {
-  var i, x, tablinks;
-  x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  tablinks = document.getElementsByClassName("tablink");
-  for (i = 0; i < x.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
-  }
-  document.getElementById(London).style.display = "block";
-  evt.currentTarget.className += " w3-red";
-}
     </script>
     
 </div>
