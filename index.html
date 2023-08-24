@@ -98,7 +98,13 @@
                         
                     </li>
                   </div>
-                <div id="boxThietKeWeb" class="thietKeWeb ">
+                 <div class="w3-bar w3-black">
+  <button class="w3-bar-item w3-button" onclick="openCity('London')">Thiết kế web</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Paris</button>
+  <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Tokyo</button>
+</div>
+                 <div id="London" class="city">
+ <div id="boxThietKeWeb" class="thietKeWeb ">
                     <li class="dropdown">
                         <p onclick="myFunction1()" class="dropbtn">  Buổi 1</p>
                         <div id="myDropdown1" class="dropdown-content">
@@ -172,6 +178,18 @@
                           </div>
                         </li>
                 </div>
+</div>
+
+<div id="Paris" class="city" style="display:none">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="city" style="display:none">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+                
 
                 <!-- <div class="header_background"></div> -->
                   <div id="thongTin" class="itemr1">
@@ -818,6 +836,20 @@ submit.addEventListener('click', e => {
   e.preventDefault();
   form.reset();
 }, false);
+
+        function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-red";
+}
     </script>
     
 </div>
