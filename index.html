@@ -839,7 +839,7 @@ submit.addEventListener('click', e => {
   form.reset();
 }, false);
 
-        function openCity(evt, cityName) {
+        function openCity(evt, London) {
   var i, x, tablinks;
   x = document.getElementsByClassName("city");
   for (i = 0; i < x.length; i++) {
@@ -849,7 +849,7 @@ submit.addEventListener('click', e => {
   for (i = 0; i < x.length; i++) {
     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
   }
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(London).style.display = "block";
   evt.currentTarget.className += " w3-red";
 }
     </script>
