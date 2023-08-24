@@ -687,7 +687,8 @@ padding-top: 12px;
 }
 #boxThietKeWeb {
     animation: effect3 ease-in-out 0.4s;
-
+margin-top: 55px;
+    margin-left: 20px;
 }
 #boxThietKeWeb li:first-child {
     padding-top: 60px;
